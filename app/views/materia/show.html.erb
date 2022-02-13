@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @materium.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @materium.author %>
+</p>
+
+<%= link_to 'Edit', edit_materium_path(@materium) %> |
+<%= link_to 'Back', materia_path %>
